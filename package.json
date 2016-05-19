@@ -1,0 +1,19 @@
+{
+  "name": "angular-skeleton",
+  "private": true,
+  "version": "0.0.1",
+  "description": "An AngularJS bare-bones application",
+  "repository": "https://github.com/josh28/angular-skeleton",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "lite-server"
+  }
+}
